@@ -1,0 +1,41 @@
+
+# DVC-managed datasets
+/ai_job_dataset.csv
+/ai_job_salary_engineered.csv
+/X_features.csv
+/y_target.csv
+
+# Local MLflow tracking files
+/mlflow.db
+/mlartifacts/
+
+# Duplicate model copy (keep salary_model.pkl)
+/ai_job_salary_model.pkl/
+
+# Generated archive
+/y_target.zip
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated drift-monitoring outputs
+/data_drift/reference_data.csv
+/data_drift/comparison_data.csv
+/data_drift/data_drift_report.html
+
+# DVC pointers (no remote configured yet)
+/X_features.csv.dvc
+/ai_job_dataset.csv.dvc
+/ai_job_salary_engineered.csv.dvc
+/y_target.csv.dvc
+
+# Generated EDA outputs
+/salary_by_experience.png
+/salary_distribution.png
+/top_10_job_salaries.png
+/top_10_job_salaries.csv
+
+# Old duplicate application file
+/app.py.txt
